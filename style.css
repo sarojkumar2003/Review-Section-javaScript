@@ -1,0 +1,73 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #4b4949c4;
+}
+.page{
+  display: flex;
+  gap: 20px;
+}
+.review{
+  height: 10px;
+  color: #150b37;
+  align-items: center;
+  justify-content: center; margin-top: 20px; margin-left: 45%;
+}
+
+.line{
+  height: 5px;
+  background-color: blue;
+  border: none;
+  width: 90px;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+.card{
+  width: 50rem;
+  height: 30rem;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(232, 77, 77, 0.838);
+  border: white;
+  background-color: wheat;
+  margin-top: 40px;
+  margin-left: 20%;
+  border-radius: 10px;
+}
+.card .image{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  box-shadow: 8px -8px #150b37;
+  margin-top: 20px;
+  margin-left: 40%;
+  image-rendering: auto;
+}
+.card .name{
+  font-size: 25px;
+  font-style: bold;
+  color: rgb(42, 179, 81);
+  margin-left: 42%;
+}
+.card .sub-hed{
+  margin-left: 43%;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .paragrpah{
+  padding: 35px;
+  margin-top: 10px;
+}
+.card .btn{
+  border: 2px solid black;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: lightgreengreen;
+  box-shadow: 5px 5px lightgreen;
+  margin-left: 44%;
+}
